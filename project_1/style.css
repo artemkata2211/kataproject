@@ -272,14 +272,16 @@ span {
   }
   .foto__img-1 {
     display: block;
-    width: 360px;
+    width: 100%;
     height: 208px;
+    flex-shrink: 1;
   }
   .info__section_section {
     display: flex;
     flex-direction: column;
     margin-right: 35px;
     padding-right: 30px;
+    flex-shrink: 3;
   }
 
   .menu__h1::before {
