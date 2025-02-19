@@ -347,9 +347,7 @@ span {
   .info__section_section {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-evenly;
     flex-shrink: 4;
   }
 
