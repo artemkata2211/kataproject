@@ -191,20 +191,22 @@ header::after {
 }
 
 .button__a {
+  display: flex;
   text-decoration: none;
   font-family: "TT lakes";
   color: black;
-  padding-left: 35px;
+  width: 100%;
+  padding-left: 15px;
+  gap: 10px;
 }
 
 .button__a::before {
   content: "";
-  position: absolute;
-  background: url(images/expand.svg) no-repeat;
+  position: relative;
+  background: url(./images/expand.svg) no-repeat center;
   width: 24px;
   height: 24px;
-  right: 10px;
-  left: 10px;
+  margin-left: 0;
 }
 
 .foto__img {
