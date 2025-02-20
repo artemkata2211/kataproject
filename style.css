@@ -312,7 +312,7 @@ label {
     align-items: center;
     gap: 10px;
   }
-  .menu__div__input {
+  .menu__div__input-1 {
     display: block;
     width: 45px;
     height: 45px;
@@ -320,11 +320,19 @@ label {
     gap: 10px;
     border: 2px solid rgba(248, 248, 248, 1);
   }
-  .menu__div:nth-child(1) .menu__div__input {
-    background: url(./images/repair.svg) no-repeat;
+  .menu__div__input-2 {
+    display: block;
+    width: 45px;
+    height: 45px;
+    align-self: center;
+    gap: 10px;
+    border: 2px solid rgba(248, 248, 248, 1);
   }
-  .menu__div:nth-child(2) .menu__div__input {
-    background: url(./images/checkstatus.svg) no-repeat;
+  .menu__div__input-1 {
+    background: url(./images/repair.svg) no-repeat center;
+  }
+  .menu__div__input-2 {
+    background: url(./images/checkstatus.svg) no-repeat center;
   }
   label {
     display: flex;
