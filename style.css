@@ -123,7 +123,7 @@ header::after {
   color: rgba(27, 28, 33, 1);
   font-weight: bold;
   font-style: normal;
-  width: 100%;
+  width: 70%;
   height: 40px;
 }
 .menu__h1::before {
@@ -217,6 +217,12 @@ header::after {
 .header__button-6 {
   display: none;
 }
+.menu__div__button {
+  display: none;
+}
+label {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .header__button-2,
@@ -295,6 +301,40 @@ header::after {
     display: none;
   }
   .header {
-    display: none;
+    visibility: hidden;
+  }
+  .menu__div {
+    display: flex;
+    width: 1120px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+  }
+  .menu__div__input {
+    display: block;
+    width: 45px;
+    height: 45px;
+    align-self: center;
+    gap: 10px;
+    border: 2px solid rgba(248, 248, 248, 1);
+  }
+  .menu__div:nth-child(1) .menu__div__input {
+    background: url(./images/repair.svg) no-repeat;
+  }
+  .menu__div:nth-child(2) .menu__div__input {
+    background: url(./images/checkstatus.svg) no-repeat;
+  }
+  label {
+    display: flex;
+    align-content: center;
+    gap: 5px;
+  }
+  .menu__div__a {
+    width: 130px;
+    display: block;
+    font-family: "TT Lakes";
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+    align-content: center;
   }
 }
