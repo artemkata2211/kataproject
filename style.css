@@ -219,7 +219,8 @@ header::after {
 .header__button-6 {
   display: none;
 }
-.menu__div__button {
+.menu__div__input-1,
+.menu__div__input-2 {
   display: none;
 }
 label {
@@ -338,10 +339,7 @@ label {
     display: flex;
     align-content: center;
     gap: 5px;
-  }
-  .menu__div__a {
     width: 130px;
-    display: block;
     font-family: "TT Lakes";
     text-decoration: none;
     color: rgba(27, 28, 33, 1);
