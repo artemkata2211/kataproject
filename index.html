@@ -8,38 +8,32 @@
   </head>
   <body>
     <header class="header">
-      <section class="header__right">
-        <button class="header__button-1"></button>
-
-        <button class="header__button-2"></button>
-
-        <button class="header__button-3"></button>
-      </section>
-      <section class="header__center">
-        <button class="header__button-4"></button>
-
-        <button class="header__button-5"></button>
-
-        <button class="header__button-6"></button>
-
-        <button class="header__button-7"></button>
-      </section>
-      <section class="header__left">
-        <button class="header__button-8"></button>
-
-        <button class="header__button-9"></button>
-      </section>
+      <div class="header__right">
+        <button class="header__burger"></button>
+        <button class="header__Group"></button>
+      </div>
+      <div class="header__center">
+        <button class="header__call"></button>
+        <button class="header__chat"></button>
+        <button class="header__profile"></button>
+      </div>
+      <div class="header__left">
+        <button class="header__repair"></button>
+        <button class="header__checkstatus"></button>
+      </div>
     </header>
     <main class="menu">
-      <div class="menu__div">
-        <h1 class="menu__h1">Услуги и сервисы</h1>
-        <label>Статус ремонта</label>
-        <input class="menu__div__input-1" type="button" />
-        <label> Оставить отзыв</label>
-        <input class="menu__div__input-2" type="button" />
+      <div class="menu__headline">
+        <h1 class="menu__title">Услуги и сервисы</h1>
+        <button class="menu__repair">
+          <label class="menu__item">Статус ремонта</label>
+        </button>
+        <button class="menu__review">
+          <label class="menu__item"> Оставить отзыв</label>
+        </button>
       </div>
-      <nav class="content">
-        <ul class="content__menu">
+      <nav class="menu__content">
+        <ul class="content">
           <li class="content__item">
             <a class="content__link" href="#">Ремонтируемые бренды</a>
           </li>
@@ -63,8 +57,8 @@
           </li>
         </ul>
       </nav>
-      <section class="info">
-        <article class="info__article">
+      <section class="menu__info">
+        <article class="info">
           <p class="info__part">
             Мы являемся авторизованным сервисным центром по ремонту техники
             Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
@@ -72,17 +66,18 @@
           </p>
           <p class="info__part">
             Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера<span>
+            партнера<span class="info__addition">
               что подтверждает большое количество постоянных клиентов. Мы
               гордимся тем, что к нам обращаются по рекомендациям и, в свою
               очередь, советуют нас родным и близким.
             </span>
           </p>
-          <a href="#" class="button__a"> Читаем далее </a>
+          <a href="#" class="info__expand"> Читаем далее </a>
         </article>
         <img
           src="./images/ec28084f3de98850700667e14dbc02fd.png"
-          class="foto__img"
+          class="menu__info--foto"
+          alt="GPS"
         />
       </section>
     </main>
