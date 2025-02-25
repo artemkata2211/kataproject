@@ -63,17 +63,16 @@ body {
   background-color: #e9e9e9;
 }
 
-.header__Group {
+.header__GPS {
   display: flex;
   width: 140px;
   height: 60px;
-  background: url("images/Group\ \(1\).svg") no-repeat;
   border: 1px solid #ffffff;
   align-items: center;
-  justify-content: end;
-  gap: 10px;
+  justify-content: start;
+  gap: 25px;
 }
-.header__Group::after {
+.header__GPS::after {
   display: block;
   content: "";
   position: relative;
@@ -260,7 +259,7 @@ header::after {
     align-items: center;
     justify-content: flex-end;
   }
-  .header__Group::after {
+  .header__GPS::after {
     display: none;
   }
   .header__burger::after {
