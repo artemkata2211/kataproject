@@ -156,9 +156,6 @@ header::after {
   border: 2px solid rgba(65, 246, 215, 1);
   border-radius: 35%;
 }
-.menu__content {
-  overflow: auto;
-}
 
 .content {
   height: 50px;
@@ -169,6 +166,7 @@ header::after {
   list-style-type: none;
   padding-left: 0;
   margin-left: 10px;
+  overflow: auto;
 }
 .content__item {
   display: flex;
