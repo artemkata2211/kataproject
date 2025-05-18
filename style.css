@@ -25,12 +25,13 @@ body {
   justify-content: space-between;
   gap: 10px;
 }
-.header__right {
+.header__right  {
   display: flex;
   align-items: center;
   margin-left: 10px;
   gap: 5px;
 }
+
 .header__center {
   display: flex;
   align-items: center;
